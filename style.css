@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap");
+
+/* font-family: 'Cabin Sketch', cursive;  */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+  margin: auto;
+}
+
+/* section 1 */
+.first {
+  background-color: #268b73;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 100px;
+}
+
+/* register  */
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.register p {
+  color: white;
+}
+
+.upper-button {
+  display: flex;
+}
+
+.cart {
+  margin-right: 40px;
+}
+.cart button {
+  background-color: #ffe942;
+}
+
+.signup button {
+  background-color: #1ebb90;
+}
+
+#up-btn {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 2px;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  margin-right: 3px;
+  font-weight: bold;
+}
+
+#up-btn:hover {
+  background-color: rgb(250, 255, 250);
+}
+
+/* part 2  */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+nav {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.fa-magnifying-glass {
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+  position: relative;
+  bottom: 2.5px;
+}
+
+/* Change color on hover */
+nav a:hover {
+  color: #ffcc00;
+}
+
+#on-edu {
+  color: white;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 40px;
+}
+
+#hr {
+  border: 3px solid rgb(255, 253, 253);
+  border-radius: 5px;
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+/* third-part */
+
+.third-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.laptop-img {
+  position: relative;
+  right: 100px;
+}
+.laptop-img img {
+  width: 463px;
+  height: 274px;
+}
+
+.txt h1 {
+  font-size: 40px;
+  font-family: "Cabin Sketch", cursive;
+  color: white;
+}
+
+.txt p {
+  color: white;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+.txt button {
+  padding: 15px 30px 15px 30px;
+  border-radius: 5px;
+  border: none;
+  color: orangered;
+  font-weight: bold;
+}
+
+/* second section  */
+
+.fourth-container {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.icons img {
+  width: 150px;
+  height: 85x;
+}
+
+.icons p {
+  text-align: center;
+  color: #509e85;
+  font-size: 17px;
+}
+
+/* second section  */
